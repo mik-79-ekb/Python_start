@@ -1,4 +1,4 @@
-#1
+#1 first
 print ("Part 1.1")
 a = 1
 b = 1.1
@@ -23,7 +23,7 @@ stroka = input(" Пожалуйста введите текст: ")
 f_stroka = f"'{stroka}' - тип '{type(stroka)}'"
 print(f_stroka)
 
-#2
+#2 second
 print ()
 print ("Part 2.0")
 usernum = input(" Пожалуйста введите количество секунд: ")
@@ -34,14 +34,14 @@ u_sec = usernum - u_hour * (60 * 60) - u_min * 60
 result = f"Вы ввели следующее время: {u_hour:02}:{u_min:02}:{u_sec:02}"
 print(result)
 
-#3
+#3 third
 print ()
 print ("Part 3.0")
 user_num = input(" Пожалуйста введите число: ")
 user_num = f"{int(user_num) + int(user_num*2) + int(user_num*3)}"
 print(f"Ответ: {user_num}")
 
-#4
+#4 fouth
 print ()
 print ("Part 4.0")
 us_number = input("Пожалуйста введите число: ")
@@ -54,7 +54,7 @@ while us_number >= 1:
     us_number = us_number // 10
 print(f"Максимальная цифра числа: {max_un}")
 
-#5
+#5 fifth
 print ()
 print ("Part 5.0")
 reverue = input("Пожалуйста введите размер выручки: ")
@@ -72,7 +72,7 @@ elif reverue == costs:
     print("Ваш финансовый результат - ноль!")
 else: print("Ваш финансовый результат - убыток!")
 
-#6
+#6 sixth
 print ()
 print ("Part 6.0")
 start = input("Пожалуйста введите начальный результат: ")
