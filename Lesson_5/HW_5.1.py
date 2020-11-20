@@ -10,3 +10,4 @@ with open('text_5.1.txt', 'w', encoding="utf-8") as test_file:
 with open('text_5.1.txt', 'r') as test_file:
     print("Содержание файла 'text_5.1.txt': ")
     print(test_file.readlines())
+    #
