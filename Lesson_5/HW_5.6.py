@@ -19,3 +19,4 @@ with open('text_5.6.txt', 'r', encoding="utf-8") as test_file:
                 pass
         lessons_dict[lessons[0]] = nagruzka
 print(lessons_dict)
+#

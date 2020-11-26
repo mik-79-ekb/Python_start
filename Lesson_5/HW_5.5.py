@@ -10,3 +10,4 @@ with open('text_5.5.txt', 'r', encoding="utf-8") as test_file:
     for x in range(len(numbers)):
         sum_numbers += int(numbers[x])
 print(f'Сумма введенных чисел составила: {sum_numbers}')
+#

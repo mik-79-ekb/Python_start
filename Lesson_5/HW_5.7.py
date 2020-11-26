@@ -17,3 +17,4 @@ with open('text_5.7.txt', 'r', encoding="utf-8") as test_file:
     result = [comp_dict, ave_profit]
 with open("text_5.7.json", "w", encoding="utf-8") as test_json:
     json.dump(result, test_json)
+    #

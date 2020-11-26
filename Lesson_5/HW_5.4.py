@@ -8,3 +8,4 @@ with open('start_5.4.txt', 'r', encoding="utf-8") as start_file:
         for x in range(len(user_line)):
             line = user_line[x].split()
             finish_file.write(f"{lang_dict[line[0]]} {line[1]} {line[2]}\n")
+            #
